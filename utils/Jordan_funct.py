@@ -18,7 +18,7 @@ def line_draw(id,class_ids,knee_loc_2,hip_loc_2,foot_loc_2,box_2):
             pass
                 
 
-def depth(point_id,cls,knee_loc,hip_loc):
+def depth(point_id,cls,knee_loc,hip_loc,box):
     '''
     of the different class ids (0,1,2),
     depth() finds the desired id in the class_ids list, finds the index of that id,
