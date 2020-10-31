@@ -18,7 +18,7 @@ def line_draw(id,class_ids,knee_loc_2,hip_loc_2,foot_loc_2,box_2):
             pass
                 
 
-def depth(point_id,cls,knee_loc,hip_loc,box):
+def depth(point_id,cls,knee_loc,hip_loc,xyxy):
     '''
     of the different class ids (0,1,2),
     depth() finds the desired id in the class_ids list, finds the index of that id,
@@ -34,7 +34,7 @@ def depth(point_id,cls,knee_loc,hip_loc,box):
             pass
     
 
-def outputs(layerOutputs,height,width,boxes,confidences,class_ids,box,box_2, xyxy):
+def outputs(xyxy):
     '''
     goes through the output of the network and 
     gets the scores, highest class ids, and the confidence of the class id
