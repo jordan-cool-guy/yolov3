@@ -27,9 +27,9 @@ def depth(point_id,cls,knee_loc,hip_loc,box):
     '''
     if point_id in cls:
         if point_id == 0:
-            knee_loc.append(box[int(cls)])
+            knee_loc.append(box[-1])
         elif point_id == 1:
-           hip_loc.append(box[int(cls)])
+           hip_loc.append(box[-1])
         else:
             pass
     
