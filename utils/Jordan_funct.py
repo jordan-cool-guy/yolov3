@@ -9,11 +9,11 @@ def line_draw(id,cls,knee_loc_2,hip_loc_2,foot_loc_2,box_2):
     '''
     if id in cls:
         if id == 0:
-            knee_loc_2.append(int(box_2[-1]))
+            knee_loc_2.append(box_2[-1])
         elif id == 1:
-            hip_loc_2.append(int(box_2[-1]))
+            hip_loc_2.append(box_2[-1])
         elif id == 2:
-            foot_loc_2.append(int(box_2[-1]))
+            foot_loc_2.append(box_2[-1])
         else:
             pass
                 
