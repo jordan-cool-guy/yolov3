@@ -3,7 +3,7 @@ import numpy as np
 
 
 
-def line_draw(id,class_ids,knee_loc_2,hip_loc_2,foot_loc_2,box_2):
+def line_draw(id,cls,knee_loc_2,hip_loc_2,foot_loc_2,box_2):
     '''
     for desired id, stored x and y coords in loc_2 list 
     '''
