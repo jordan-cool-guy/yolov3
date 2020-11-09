@@ -7,13 +7,13 @@ def line_draw(id,class_ids,knee_loc_2,hip_loc_2,foot_loc_2,box_2):
     '''
     for desired id, stored x and y coords in loc_2 list 
     '''
-    if id in class_ids:
+    if id in cls:
         if id == 0:
-            knee_loc_2.append(box_2[class_ids.index(id)])
+            knee_loc_2.append(int(box_2[-1]))
         elif id == 1:
-            hip_loc_2.append(box_2[class_ids.index(id)])
+            hip_loc_2.append(int(box_2[-1]))
         elif id == 2:
-            foot_loc_2.append(box_2[class_ids.index(id)])
+            foot_loc_2.append(int(box_2[-1]))
         else:
             pass
                 
